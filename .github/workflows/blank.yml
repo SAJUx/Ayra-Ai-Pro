@@ -1,4 +1,4 @@
-name: Build Ayra AI APK (Siri-like PRO) - FIXED (Unzip + Build)
+name: Build Ayra AI APK (Siri-like PRO) - FIXED2 (Unzip + Build)
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
         shell: bash
         run: |
           set -e
-          ZIP_FILE="AyraAI_SiriLike_PRO_Project_FIXED.zip"
+          ZIP_FILE="AyraAI_SiriLike_PRO_Project_FIXED2.zip"
           OUT_DIR="extracted"
           rm -rf "$OUT_DIR"
           mkdir -p "$OUT_DIR"
